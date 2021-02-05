@@ -13,4 +13,14 @@ SWEA_1210 Ladder : https://swexpertacademy.com/main/code/problem/problemDetail.d
 
 SWEA_1954 달팽이숫자 :https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq&categoryId=AV5PobmqAPoDFAUq&categoryType=CODE&problemTitle=1954&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
 
-SWEA_상호의 배틀필드
+SWEA_상호의 배틀필드: https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LyE7KD2ADFAXc&categoryId=AV5LyE7KD2ADFAXc&categoryType=CODE&problemTitle=%EB%B0%B0%ED%8B%80%ED%95%84%EB%93%9C&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&
+
+SWEA_2805_농작물 수확 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB&categoryId=AV7GLXqKAWYDFAXB&categoryType=CODE&problemTitle=2805&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
+
+백준_2493_ 탑 : https://www.acmicpc.net/problem/2493
+
+백준_1213_펠론드롬 : https://www.acmicpc.net/problem/1213
+
+백준_1316 그릅체커 : https://www.acmicpc.net/problem/1316
+
+백준_1181번 _단어 정렬 : https://www.acmicpc.net/problem/1181
