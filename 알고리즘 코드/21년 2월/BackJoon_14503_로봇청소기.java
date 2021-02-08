@@ -97,10 +97,10 @@ public class BackJoon_14503_肺嚎没家扁 {
 			dir=(cnt)%4;
 			
 			cnt=0;
-			if(dir==0&&map[x+1][y]!=1) { x++;continue;} 
-			if(dir==1&&map[x][y-1]!=1) {y--;continue;}
-			if(dir==2&&map[x-1][y]!=1) {x--;continue;}
-			if(dir==3&&map[x][y+1]!=1) {y++;continue;}
+			if(dir==0&&map[x+1][y]!=1) {x++; continue;} 
+			if(dir==1&&map[x][y-1]!=1) {y--; continue;}
+			if(dir==2&&map[x-1][y]!=1) {x--; continue;}
+			if(dir==3&&map[x][y+1]!=1) {y++; continue;}
 			//clearPlace--;
 			//break;
 			//cnt=0;
@@ -154,13 +154,13 @@ public class BackJoon_14503_肺嚎没家扁 {
 			}
 		}
 		search();
-		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < M; j++) {
-				System.out.print(map[i][j]+ "  ");
-				}
-			System.out.println();
-			}
-		
+//		for (int i = 0; i < N; i++) {
+//			for (int j = 0; j < M; j++) {
+//				System.out.print(map[i][j]+ "  ");
+//				}
+//			System.out.println();
+//			}
+//		
 
 		System.out.println(clearPlace+1);
 		
