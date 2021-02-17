@@ -1,4 +1,4 @@
-package com.study16;
+package com.study19;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -68,6 +68,7 @@ public class 순열조합복습 {
 				isSelected[i]=false;
 			}
 		}//중복 조합 nHr : 6H3 : n+r-1Cr : 8C3 -> 56
+		//자기 자신이 들어가야한다.
 		private static void dice3(int cnt, int start) {
 			if(cnt==N) {
 				totalCnt++;
@@ -75,13 +76,14 @@ public class 순열조합복습 {
 				return;
 			}
 			
-			
+			//스타트가 나랑 같은 수를 탐색 
 			for(int i = start; i<=6;i++) {
 				numbers[cnt]=i;
 				dice3(cnt+1,i);
 			}
 		}
 			//조합 nCr : 6C3 : 20
+			//자기자신보다 큰수부터 뽑는다.
 			private static void dice4(int cnt, int start) {
 				if(cnt==N) {
 					totalCnt++;
@@ -89,11 +91,14 @@ public class 순열조합복습 {
 					return;
 				}
 				
-				
+				//스타트가 나보다 큰수부터 탐색
 				for(int i = start; i<=6;i++) {
 					numbers[cnt]=i;
 					dice4(cnt+1,i+1);
 				}
 	}
+			private static void dice5(int cnt) {
+				
+			}
 	}
 
