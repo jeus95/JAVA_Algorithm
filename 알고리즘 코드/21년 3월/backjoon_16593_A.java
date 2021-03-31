@@ -10,6 +10,7 @@ public class backjoon_16593_A {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		int cnt=1;
+		System.out.println(B%10);
 		while(true) {
 			if(A==B) {
 				System.out.println(cnt);
@@ -19,20 +20,20 @@ public class backjoon_16593_A {
 				System.out.println(-1);
 				return;
 			}
-
+			if (B%10 != '1' && B % 2 != 0) {
+				System.out.println(-1);
+				return;
+            }
 			
 			if(B%10==1) {
 				B=B/10;
 				cnt++;
 				continue;
 			}
-			if(B%2==1) {
-			B=(B+1)/2;
-			cnt++;
-			continue;
+			if(B%2==0) {
+				B=B/2;
+				cnt++;
 			}
-			B=B/2;
-			cnt++;
 		}
 		
 		}
